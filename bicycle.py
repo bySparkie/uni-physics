@@ -15,10 +15,8 @@ def v(t):
 
 t_list = np.linspace(0, 100, 100)
 
-v_list = v(t_list)
-
 plt.figure(num=0,dpi=120)
-plt.plot(t_list, v_list, color='orange')
+plt.plot(t_list, v(t_list), color='orange')
 
 plt.xlabel('$t$ in s')
 plt.ylabel('$v$ in km/h')
