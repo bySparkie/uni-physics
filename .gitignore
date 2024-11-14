@@ -79,3 +79,5 @@ fabric.properties
 # own
 .idea/.name
 .idea/vcs.xml
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/misc.xml
